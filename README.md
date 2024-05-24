@@ -1,3 +1,6 @@
+
+其原理是wifi被动侦测,我们手机wifi功能在打开的时候,会后台不停地探测手机周边是否有可以连接的wifi路由器,这个探测的动作,就会被openwrt无线路由器里执行的tcpdump脚本记录到.就算你手机当时没有连上无线路由器,仅仅是靠近该路由器你都被记录了,然后按第二个脚本触发mqtt命令
+
 # Sniff Probes
 
 Plug-and-play bash script for sniffing 802.11 probes requests. 
